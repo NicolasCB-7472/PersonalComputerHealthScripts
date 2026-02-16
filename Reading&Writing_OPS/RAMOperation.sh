@@ -37,7 +37,6 @@ end_writing=$(date +%s%N)
 
 elapsed_writing=$(((end_writing - start_writing)/1000000))
 
-sync
 start_reading=$(date +%s%N)
 
 # --- Código a medir ---
