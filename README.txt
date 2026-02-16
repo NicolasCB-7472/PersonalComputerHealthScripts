@@ -1,3 +1,10 @@
+
+## Disk&Ram Operations
+
+Both scripts uses RAM & Disk reading/writing operations with a small optimization regarding buffer clearence, although buffer things can be still optimized,
+the script succesfully reads the contents of SampleMemoryWriting.txt as a fixed value within the code and simply prints the time.
+
+## FPS
 Script to diagnose GPU and CPU relevant metrics.
 Provides with simple depuration information such as test duration, last frame,
 total frames in test, total average fps count, average frame time in ms.
