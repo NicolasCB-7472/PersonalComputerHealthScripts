@@ -34,10 +34,8 @@ male and female he created them.
 
 31God saw all that he had made, and it was very good. And there was evening, and there was morning—the sixth day." > DiskOperationSample.txt
 # ----------------------
-
-sync
-
 end_writing=$(date +%s%N)
+sync
 
 elapsed_writing=$(((end_writing - start_writing)/1000000))
 
